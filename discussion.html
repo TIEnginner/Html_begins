@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discórdia</title>
+   <style>
+     .desenvolvimento_01 {
+            padding: 20px;
+            text-align: justify;
+            border: 2px solid rgb(167, 98, 98);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            font-family: "Mukta";
+            position: absolute;
+            top: 23%;
+            left: 23%;
+            transform: translate(-50%, -50%);
+            margin: 60px;
+            text-align: center;
+            width: 200px;
+            height: 300px;
+     }
+     .desenvolvimento_02 {
+            padding: 20px;
+            text-align: justify;
+            border: 2px solid rgb(167, 98, 98);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            font-family: "Mukta";
+            position: absolute;
+            top: 32%;
+            left: 150%;
+            transform: translate(-50%, -50%);
+            margin: 60px;
+            text-align: center;
+            width: 200px;
+            height: 300px;
+        }
+   </style>
+</head>
+<body>
+    <script>
+        userName = function() {
+            document.getElementById("01").innerHTML = document.getElementById("idname").value;
+            document.getElementById("02").innerHTML = document.getElementById("idate").value;
+            document.getElementById("03").innerHTML = document.getElementById("idbi").value;
+        }
+    </script>
+
+    <script>
+        cleanInfo = function() {
+            window.location.reload(true);
+        }
+    </script>
+
+<div class="desenvolvimento_01">
+    <p>Digite seu nome:</p>
+   <input type="text" id="idname" >
+   <label>Data de nascimento:</label>
+   <input type="date" id="idate" >
+   <br>
+   <input type="radio" name="r2d2" value="Biscoito" id="idbi" >Biscoito
+   <input type="radio" name="r2d2" value="Bolacha" id="idbi" >Bolacha
+   <br>
+   <button onclick="userName()">Enviar</button>
+   <button onclick="cleanInfo()">Limpar página</button>
+
+
+<div class="desenvolvimento_02">
+    <h2 >Seu nome:</h2>
+    <p id="01">Nome</p>
+    <p2 id="02">Data de Nascimento:</p2>
+    <br>
+    <p3 id="03">Você prefere:</p3>
+
+
+</div>
+
+</body>
+</html>
