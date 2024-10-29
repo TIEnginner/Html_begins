@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylecalc" href="stylecalc.css">
+</head>
+<body>
+    <style>
+        .desenvolvimento_01 {
+               padding: 20px;
+               text-align: justify;
+               border: 2px solid rgb(167, 98, 98);
+               border-radius: 10px;
+               background-color: rgb(255, 255, 255);
+               font-family: "Mukta";
+               position: absolute;
+               top: 23%;
+               left: 23%;
+               transform: translate(-50%, -50%);
+               margin: 60px;
+               text-align: center;
+               width: 200px;
+               height: 300px;
+        }
+        .desenvolvimento_02 {
+               padding: 20px;
+               text-align: justify;
+               border: 2px solid rgb(167, 98, 98);
+               border-radius: 10px;
+               background-color: rgb(255, 255, 255);
+               font-family: "Mukta";
+               position: absolute;
+               top: 32%;
+               left: 150%;
+               transform: translate(-50%, -50%);
+               margin: 60px;
+               text-align: center;
+               width: 200px;
+               height: 300px;
+           }
+           .desenvolvimento_03 {
+               padding: 20px;
+               text-align: justify;
+               border: 2px solid rgb(167, 98, 98);
+               border-radius: 10px;
+               background-color: rgb(255, 255, 255);
+               font-family: "Mukta";
+               position: absolute;
+               top: 32%;
+               left: 150%;
+               transform: translate(-50%, -50%);
+               margin: 60px;
+               text-align: center;
+               width: 200px;
+               height: 300px;
+           }
+      </style>
+
+<div class="desenvolvimento_01">
+    <h2>Digite 2 números:</h2>
+    <input type="text" id="N1" name="idnumber01" placeholder="Primeiro número:">
+    <input type="text" id="N2" name="idnumber02" placeholder="Segundo número:">
+
+<div class="desenvolvimento_02">
+    <h1>Escolha a operação:</h1>
+    <input type="radio" name="fm" value="adição" id="94">Soma
+    <br>
+    <input type="radio" name="fm" value="menos" id="95">Subtração
+    <br>
+    <input type="radio" name="fm" value="vezes" id="96">Multiplicação
+    <br>
+    <input type="radio" name="fm" value="dividir" id="97">Divisão
+    <p></p>
+    <button onclick="countOp()">Calcular</button>
+
+<div class="desenvolvimento_03">
+    <h2>Resultado:</h2>
+    <p id="08">XD</p>
+    <br>
+    <button onclick="cleanInfo()">Limpar informações</button>
+
+
+<script src="scriptcalc.js"></script>
+</body>
+</html>
