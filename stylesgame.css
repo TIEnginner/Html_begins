@@ -1,0 +1,48 @@
+h1:hover {
+    text-align: center;
+    color: red;
+    background-color: rgb(239, 255, 14);
+}
+
+h2:hover {
+    text-align: start;
+    color: red;
+    background-color: rgb(239, 255, 14);
+}
+
+#01 {
+    color: indigo;
+    text-align: center;
+    font-size: large;
+}
+
+#minute {
+    color: red;
+    width: auto;
+}
+
+#second {
+    color: red;
+    width: auto;
+}
+
+#img {
+    background-image: url('https://i.pinimg.com/originals/30/e7/6d/30e76dbffd825e4ff1a8ff244d0f1006.jpg');
+  }
+
+  .desenvolvimento_02 {
+    padding: 20px;
+    text-align: justify;
+    border: 2px solid rgb(204, 201, 0);
+    border-radius: 10px;
+    background-color: rgb(34, 0, 158);
+    font-family: "Mukta";
+    position: absolute;
+    top: 32%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    margin: 60px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+}
