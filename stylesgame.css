@@ -1,29 +1,42 @@
-h1:hover {
+h1 {
     text-align: center;
     color: red;
-    background-color: rgb(239, 255, 14);
+    max-height: min-content;
+    max-width: max-content;
 }
 
 h2:hover {
     text-align: start;
     color: red;
     background-color: rgb(239, 255, 14);
+    max-width: max-content;
+    max-height: fit-content;
+}
+
+h3 {
+    text-align: start;
+    color: red;
+    background-color: rgb(239, 255, 14);
+    max-width: max-content;
+    max-height: fit-content;
 }
 
 #01 {
     color: indigo;
-    text-align: center;
+    text-align: end;
     font-size: large;
 }
 
 #minute {
     color: red;
-    width: auto;
+    max-width: max-content;
+    max-height: fit-content;
 }
 
 #second {
     color: red;
-    width: auto;
+    max-width: max-content;
+    max-height: fit-content;
 }
 
 #img {
@@ -33,16 +46,34 @@ h2:hover {
   .desenvolvimento_02 {
     padding: 20px;
     text-align: justify;
-    border: 2px solid rgb(204, 201, 0);
+    border: 2px solid rgb(56, 56, 56);
     border-radius: 10px;
-    background-color: rgb(34, 0, 158);
     font-family: "Mukta";
     position: absolute;
-    top: 32%;
-    left: 150%;
+    top: 51%;
+    left: 45%;
     transform: translate(-50%, -50%);
     margin: 60px;
     text-align: center;
-    width: 200px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 220, 0.6);
+}
+
+.game-canvas {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(238, 12, 12);
+    border-radius: 10px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42%;
+    height: 45%;
 }
