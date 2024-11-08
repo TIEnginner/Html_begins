@@ -45,12 +45,18 @@
             document.getElementById("01").innerHTML = document.getElementById("idname").value;
             document.getElementById("02").innerHTML = document.getElementById("idate").value;
             document.getElementById("03").innerHTML = document.getElementById("idbi").value;
-        }
-    </script>
+            document.getElementById("03").innerHTML = document.getElementById("idbo").value;
 
-    <script>
+        if (document.getElementById("idbi").checked){
+        src="https://th.bing.com/th/id/OIP.O4JBoGZZeG_sCWvGxLIp0QHaGk?rs=1&pid=ImgDetMain";
+        }
+        
+        else if (document.getElementById("idbo").checked){
+         src="https://e7.pngegg.com/pngimages/956/810/png-clipart-biscuit-biscuit.png";
+        }
+    }
         cleanInfo = function() {
-            window.location.reload(true);
+            window.location.reload(true)
         }
     </script>
 
@@ -61,7 +67,7 @@
    <input type="date" id="idate" >
    <br>
    <input type="radio" name="r2d2" value="Biscoito" id="idbi" >Biscoito
-   <input type="radio" name="r2d2" value="Bolacha" id="idbi" >Bolacha
+   <input type="radio" name="r2d2" value="Bolacha" id="idbo" >Bolacha
    <br>
    <button onclick="userName()">Enviar</button>
    <button onclick="cleanInfo()">Limpar página</button>
@@ -76,6 +82,5 @@
 
 
 </div>
-
 </body>
 </html>
